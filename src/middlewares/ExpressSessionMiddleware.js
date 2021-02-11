@@ -8,7 +8,6 @@ class ExpressSessionMiddleware extends Middleware {
   constructor() {
     super()
 
-    this.order = 0
     this.expressSession = expressSession({
       secret: 'keyboardcat',
       resave: false,

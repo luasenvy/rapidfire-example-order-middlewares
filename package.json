@@ -4,6 +4,7 @@
   "description": "Rapidfire Order Middlewares Example",
   "main": "index.js",
   "scripts": {
+    "dev": "node --inspect src/index",
     "start": "node src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +12,7 @@
   "author": "",
   "license": "BEERWARE",
   "dependencies": {
-    "@luasenvy/rapidfire": "^0.1.8",
+    "@luasenvy/rapidfire": "^0.1.9",
     "express-session": "^1.17.1",
     "nuxt": "^2.14.12"
   },

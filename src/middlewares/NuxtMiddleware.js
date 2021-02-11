@@ -10,7 +10,6 @@ class NuxtMiddleware extends Middleware {
   constructor() {
     super()
 
-    this.order = 1
     this.nuxt = null
   }
 

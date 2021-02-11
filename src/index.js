@@ -8,6 +8,10 @@ const rapidFire = new RapidFire({
   paths: {
     middlewares: path.join(__dirname, 'middlewares'),
   },
+  // You Can Ordering Use This Property
+  //   Default: Follow Order `fs.readdirSync()` In `paths.middlewares` Directory
+  // middlewares: ['ExpressSessionMiddleware', 'NuxtMiddleware'],
+  // middlewares: ['NuxtMiddleware', 'ExpressSessionMiddleware'],
 })
 
 rapidFire.ignition()
